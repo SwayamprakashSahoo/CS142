@@ -200,7 +200,7 @@ class LinkedList
 
 int main()
 {
-    //Object of the class
+    //Object
     LinkedList l1;
     //creating several nodes
     for(int i=1;i<9;i++)
