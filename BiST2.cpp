@@ -301,6 +301,5 @@ int main()
     {
         cout<<"Case invalid."<<endl;
     }
-    
     return 0;
 }
