@@ -291,15 +291,5 @@ int main()
     {
         cout<<"No element in the tree after deletion."<<endl;// the BST had just one element
     }
-    
-    //find minimum
-    if(B1.find_min(B1.root)!=NULL)
-    {
-        cout<<"Minimum value of the tree: "<<B1.find_min(B1.root)->data<<endl;
-    }
-    else
-    {
-        cout<<"Case invalid."<<endl;
-    }
     return 0;
 }
