@@ -3,7 +3,8 @@
 #include<iostream>
 using namespace std;
 
-class BinaryHeap{
+class BinaryHeap
+{
     public:
     // Pointer to array of elements
     int * hArr;
@@ -20,7 +21,8 @@ class BinaryHeap{
         cSize = 0;
     }
 
-    void swap(int a, int b){
+    void swap(int a, int b)
+    {
         // Swap elements ... 
         hArr[a]=hArr[a]+hArr[b];
         hArr[b]=hArr[a]-hArr[b];
